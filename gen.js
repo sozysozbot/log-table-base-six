@@ -1,10 +1,10 @@
-function calc(k) {
+function calc(k, len = 5) {
     const list = [..."012345"]
         .map(c => {
             const precision = 9;
-            const a = Math.round((Math.log(parseInt(k + c, 6)) / Math.log(6) - 5) * 6 ** precision).toString(6).padStart(precision, "0");
+            const a = Math.round((Math.log(parseInt(k + c, 6)) / Math.log(6) - len) * 6 ** precision).toString(6).padStart(precision, "0");
 
-            return { leading: a.slice(0, 4), trailing: a.slice(4, 9) }
+            return { leading: a.slice(0, 4), trailing: a.slice(4, precision) }
         });
 
     return [list[0].leading, list.map(({ leading, trailing }) => {
@@ -13,9 +13,10 @@ function calc(k) {
 }
 
 function print_row(k,
-    { isBold, hide_leftmost, final } = { isBold: false, hide_leftmost: false, final: false }
+    { isBold, hide_leftmost, final } = { isBold: false, hide_leftmost: false, final: false },
+    len = 5
 ) {
-    const [leading, trailing_list] = calc(k);
+    const [leading, trailing_list] = calc(k, len);
     const padding = final ? ' style="padding-bottom: 5px;"' : '';
     return `            <tr${isBold ? ` style="font-weight: bold;"` : ''}>
                 <td${padding}><span${hide_leftmost ? ' style="visibility: hidden;"' : ''}>${k.slice(0, 3)}</span> ${k.slice(3, 5)}</td>
@@ -28,14 +29,14 @@ function print_row(k,
             </tr>`;
 }
 
-function print_six_rows(k2) {
+function print_six_rows(k2, len = 4) {
     return [
-        print_row(k2 + "0", { isBold: true }),
-        print_row(k2 + "1", { hide_leftmost: true }),
-        print_row(k2 + "2", { hide_leftmost: true }),
-        print_row(k2 + "3", { hide_leftmost: true }),
-        print_row(k2 + "4", { hide_leftmost: true }),
-        print_row(k2 + "5", { hide_leftmost: true, final: true })
+        print_row(k2 + "0", { isBold: true }, len + 1),
+        print_row(k2 + "1", { hide_leftmost: true }, len + 1),
+        print_row(k2 + "2", { hide_leftmost: true }, len + 1),
+        print_row(k2 + "3", { hide_leftmost: true }, len + 1),
+        print_row(k2 + "4", { hide_leftmost: true }, len + 1),
+        print_row(k2 + "5", { hide_leftmost: true, final: true }, len + 1)
     ].join("\n");
 }
 
@@ -88,4 +89,4 @@ for (let i = 1; i < 6; i++) {
     }
 }
 
-console.log(JSON.stringify(FILES, null, 2));
+// console.log(JSON.stringify(FILES, null, 2));
