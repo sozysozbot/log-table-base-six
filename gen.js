@@ -110,7 +110,7 @@ function gen2() {
 
 <body>
     <div style="text-align: center; margin-bottom: 1em;">
-        <b style="font-variant-caps: small-caps; font-size: 2em;">Logarithm Table for Base Six</b><br>
+        <b style="font-variant-caps: small-caps; font-size: 2em;">Table of Base Six Logarithms</b><br>
         <span style="font-size: 1.5em;">written in base six</span><br>
     </div>
 
