@@ -7,7 +7,7 @@
   "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
   "name": "Log table (base six)",
   "author": "hsjoihs",
-  "dateModified": "2025-07-29T12:12:32.724Z",
+  "dateModified": "2025-07-29T13:02:43.174Z",
   "readingOrder": [
     {
       "url": "!cover.html",
@@ -731,6 +731,10 @@
     },
     {
       "url": "555.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "back.html",
       "name": "Log table (base six)"
     }
   ],
