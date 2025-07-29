@@ -7,14 +7,7 @@
     size: 128mm 182mm
         /* JIS B6 */
     ;
-}
-
-@page: left {
-    margin: 2% 12% 2% 7%;
-}
-
-@page: right {
-    margin: 2% 7% 2% 12%;
+    margin: 2% 9.5% 2% 9.5%;
 }
 
 * {
