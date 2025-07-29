@@ -46,53 +46,7 @@ function gen(k2) {
     fs.writeFileSync(k2 + '.html', `<html>
 
 <head>
-    <style>
-        @font-face {
-            font-family: "Cormorant Garamond";
-            src: url('./CormorantGaramond-VariableFont_wght.ttf') format('truetype');
-        }
-
-        @page {
-            size: 128mm 182mm
-                /* JIS B6 */
-            ;
-        }
-
-        @page:left { 
-            margin: 2% 12% 2% 7%;
-        }
-
-        @page:right { 
-            margin: 2% 7% 2% 12%;
-        }
-
-        * {
-            font-family: "Cormorant Garamond";
-            font-variant-numeric: tabular-nums;
-        }
-
-        body {
-            font-size: 85%;
-        }
-
-        table {
-            border-collapse: collapse;
-            border: 1px solid black;
-        }
-
-        table thead {
-            border-bottom: 1px solid black;
-        }
-
-        table td {
-            border-left: 1px solid black;
-            border-right: 1px solid black;
-            padding: 0px 6px;
-            break-inside: avoid;
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="table.css">
     <title>Log table (base six)</title>
 </head>
 
