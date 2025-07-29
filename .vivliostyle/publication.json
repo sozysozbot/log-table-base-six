@@ -1,0 +1,739 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "name": "Log table (base six)",
+  "author": "hsjoihs",
+  "dateModified": "2025-07-29T11:56:21.514Z",
+  "readingOrder": [
+    {
+      "url": "!cover.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "100.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "101.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "102.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "103.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "104.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "105.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "110.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "111.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "112.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "113.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "114.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "115.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "120.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "121.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "122.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "123.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "124.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "125.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "130.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "131.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "132.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "133.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "134.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "135.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "140.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "141.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "142.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "143.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "144.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "145.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "150.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "151.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "152.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "153.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "154.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "155.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "200.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "201.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "202.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "203.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "204.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "205.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "210.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "211.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "212.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "213.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "214.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "215.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "220.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "221.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "222.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "223.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "224.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "225.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "230.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "231.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "232.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "233.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "234.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "235.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "240.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "241.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "242.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "243.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "244.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "245.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "250.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "251.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "252.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "253.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "254.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "255.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "300.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "301.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "302.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "303.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "304.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "305.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "310.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "311.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "312.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "313.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "314.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "315.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "320.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "321.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "322.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "323.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "324.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "325.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "330.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "331.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "332.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "333.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "334.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "335.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "340.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "341.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "342.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "343.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "344.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "345.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "350.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "351.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "352.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "353.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "354.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "355.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "400.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "401.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "402.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "403.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "404.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "405.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "410.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "411.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "412.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "413.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "414.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "415.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "420.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "421.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "422.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "423.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "424.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "425.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "430.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "431.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "432.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "433.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "434.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "435.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "440.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "441.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "442.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "443.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "444.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "445.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "450.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "451.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "452.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "453.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "454.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "455.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "500.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "501.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "502.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "503.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "504.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "505.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "510.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "511.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "512.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "513.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "514.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "515.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "520.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "521.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "522.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "523.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "524.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "525.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "530.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "531.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "532.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "533.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "534.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "535.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "540.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "541.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "542.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "543.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "544.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "545.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "550.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "551.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "552.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "553.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "554.html",
+      "name": "Log table (base six)"
+    },
+    {
+      "url": "555.html",
+      "name": "Log table (base six)"
+    }
+  ],
+  "resources": [],
+  "links": []
+}

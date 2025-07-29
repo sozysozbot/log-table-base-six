@@ -1,0 +1,396 @@
+<html>
+
+<head>
+    <style>
+        @font-face {
+            font-family: "Cormorant Garamond";
+            src: url('./CormorantGaramond-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @page {
+            size: 128mm 182mm
+                /* JIS B6 */
+            ;
+        }
+
+        @page:left { 
+            margin: 2% 12% 2% 7%;
+        }
+
+        @page:right { 
+            margin: 2% 7% 2% 12%;
+        }
+
+        * {
+            font-family: "Cormorant Garamond";
+            font-variant-numeric: tabular-nums;
+        }
+
+        body {
+            font-size: 85%;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        table thead {
+            border-bottom: 1px solid black;
+        }
+
+        table td {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            padding: 0px 6px;
+            break-inside: avoid;
+        }
+
+    </style>
+
+    <title>Log table (base six)</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr style="text-align: center;">
+                <td></td>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+        </thead>
+        <tbody style="text-align: right">
+            <tr style="font-weight: bold;">
+                <td><span>300</span> 00</td>
+                <td>3402<span style="visibility: hidden;">*</span>34555</td>
+                <td><span style="visibility: hidden;">*</span>40040</td>
+                <td><span style="visibility: hidden;">*</span>41121</td>
+                <td><span style="visibility: hidden;">*</span>42202</td>
+                <td><span style="visibility: hidden;">*</span>43243</td>
+                <td><span style="visibility: hidden;">*</span>44324</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 01</td>
+                <td>3402<span style="visibility: hidden;">*</span>45405</td>
+                <td><span style="visibility: hidden;">*</span>50450</td>
+                <td><span style="visibility: hidden;">*</span>51532</td>
+                <td><span style="visibility: hidden;">*</span>53013</td>
+                <td><span style="visibility: hidden;">*</span>54054</td>
+                <td><span style="visibility: hidden;">*</span>55135</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 02</td>
+                <td>3403<span style="visibility: hidden;">*</span>00220</td>
+                <td><span style="visibility: hidden;">*</span>01300</td>
+                <td><span style="visibility: hidden;">*</span>02341</td>
+                <td><span style="visibility: hidden;">*</span>03422</td>
+                <td><span style="visibility: hidden;">*</span>04503</td>
+                <td><span style="visibility: hidden;">*</span>05544</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 03</td>
+                <td>3403<span style="visibility: hidden;">*</span>11025</td>
+                <td><span style="visibility: hidden;">*</span>12110</td>
+                <td><span style="visibility: hidden;">*</span>13151</td>
+                <td><span style="visibility: hidden;">*</span>14232</td>
+                <td><span style="visibility: hidden;">*</span>15313</td>
+                <td><span style="visibility: hidden;">*</span>20354</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 04</td>
+                <td>3403<span style="visibility: hidden;">*</span>21435</td>
+                <td><span style="visibility: hidden;">*</span>22515</td>
+                <td><span style="visibility: hidden;">*</span>24000</td>
+                <td><span style="visibility: hidden;">*</span>25041</td>
+                <td><span style="visibility: hidden;">*</span>30122</td>
+                <td><span style="visibility: hidden;">*</span>31203</td>
+            </tr>
+            <tr>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">300</span> 05</td>
+                <td style="padding-bottom: 5px;">3403<span style="visibility: hidden;">*</span>32243</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>33324</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>34405</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>35450</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>40531</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>42011</td>
+            </tr>
+                        <tr style="font-weight: bold;">
+                <td><span>300</span> 10</td>
+                <td>3403<span style="visibility: hidden;">*</span>43052</td>
+                <td><span style="visibility: hidden;">*</span>44133</td>
+                <td><span style="visibility: hidden;">*</span>45214</td>
+                <td><span style="visibility: hidden;">*</span>50254</td>
+                <td><span style="visibility: hidden;">*</span>51335</td>
+                <td><span style="visibility: hidden;">*</span>52420</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 11</td>
+                <td>3403<span style="visibility: hidden;">*</span>53500</td>
+                <td><span style="visibility: hidden;">*</span>54541</td>
+                <td>*00022</td>
+                <td>*01102</td>
+                <td>*02143</td>
+                <td>*03223</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 12</td>
+                <td>3404<span style="visibility: hidden;">*</span>04304</td>
+                <td><span style="visibility: hidden;">*</span>05345</td>
+                <td><span style="visibility: hidden;">*</span>10425</td>
+                <td><span style="visibility: hidden;">*</span>11510</td>
+                <td><span style="visibility: hidden;">*</span>12550</td>
+                <td><span style="visibility: hidden;">*</span>14031</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 13</td>
+                <td>3404<span style="visibility: hidden;">*</span>15112</td>
+                <td><span style="visibility: hidden;">*</span>20152</td>
+                <td><span style="visibility: hidden;">*</span>21233</td>
+                <td><span style="visibility: hidden;">*</span>22313</td>
+                <td><span style="visibility: hidden;">*</span>23354</td>
+                <td><span style="visibility: hidden;">*</span>24434</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 14</td>
+                <td>3404<span style="visibility: hidden;">*</span>25515</td>
+                <td><span style="visibility: hidden;">*</span>30555</td>
+                <td><span style="visibility: hidden;">*</span>32040</td>
+                <td><span style="visibility: hidden;">*</span>33120</td>
+                <td><span style="visibility: hidden;">*</span>34201</td>
+                <td><span style="visibility: hidden;">*</span>35241</td>
+            </tr>
+            <tr>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">300</span> 15</td>
+                <td style="padding-bottom: 5px;">3404<span style="visibility: hidden;">*</span>40321</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>41402</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>42442</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>43523</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>45003</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>50043</td>
+            </tr>
+                        <tr style="font-weight: bold;">
+                <td><span>300</span> 20</td>
+                <td>3404<span style="visibility: hidden;">*</span>51124</td>
+                <td><span style="visibility: hidden;">*</span>52204</td>
+                <td><span style="visibility: hidden;">*</span>53244</td>
+                <td><span style="visibility: hidden;">*</span>54325</td>
+                <td><span style="visibility: hidden;">*</span>55405</td>
+                <td>*00445</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 21</td>
+                <td>3405<span style="visibility: hidden;">*</span>01530</td>
+                <td><span style="visibility: hidden;">*</span>03010</td>
+                <td><span style="visibility: hidden;">*</span>04050</td>
+                <td><span style="visibility: hidden;">*</span>05131</td>
+                <td><span style="visibility: hidden;">*</span>10211</td>
+                <td><span style="visibility: hidden;">*</span>11251</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 22</td>
+                <td>3405<span style="visibility: hidden;">*</span>12331</td>
+                <td><span style="visibility: hidden;">*</span>13412</td>
+                <td><span style="visibility: hidden;">*</span>14452</td>
+                <td><span style="visibility: hidden;">*</span>15532</td>
+                <td><span style="visibility: hidden;">*</span>21012</td>
+                <td><span style="visibility: hidden;">*</span>22052</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 23</td>
+                <td>3405<span style="visibility: hidden;">*</span>23133</td>
+                <td><span style="visibility: hidden;">*</span>24213</td>
+                <td><span style="visibility: hidden;">*</span>25253</td>
+                <td><span style="visibility: hidden;">*</span>30333</td>
+                <td><span style="visibility: hidden;">*</span>31413</td>
+                <td><span style="visibility: hidden;">*</span>32453</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 24</td>
+                <td>3405<span style="visibility: hidden;">*</span>33533</td>
+                <td><span style="visibility: hidden;">*</span>35014</td>
+                <td><span style="visibility: hidden;">*</span>40054</td>
+                <td><span style="visibility: hidden;">*</span>41134</td>
+                <td><span style="visibility: hidden;">*</span>42214</td>
+                <td><span style="visibility: hidden;">*</span>43254</td>
+            </tr>
+            <tr>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">300</span> 25</td>
+                <td style="padding-bottom: 5px;">3405<span style="visibility: hidden;">*</span>44334</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>45414</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>50454</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>51534</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>53014</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>54054</td>
+            </tr>
+                        <tr style="font-weight: bold;">
+                <td><span>300</span> 30</td>
+                <td>3405<span style="visibility: hidden;">*</span>55134</td>
+                <td>*00214</td>
+                <td>*01254</td>
+                <td>*02334</td>
+                <td>*03414</td>
+                <td>*04454</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 31</td>
+                <td>3410<span style="visibility: hidden;">*</span>05534</td>
+                <td><span style="visibility: hidden;">*</span>11014</td>
+                <td><span style="visibility: hidden;">*</span>12054</td>
+                <td><span style="visibility: hidden;">*</span>13134</td>
+                <td><span style="visibility: hidden;">*</span>14214</td>
+                <td><span style="visibility: hidden;">*</span>15253</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 32</td>
+                <td>3410<span style="visibility: hidden;">*</span>20333</td>
+                <td><span style="visibility: hidden;">*</span>21413</td>
+                <td><span style="visibility: hidden;">*</span>22453</td>
+                <td><span style="visibility: hidden;">*</span>23533</td>
+                <td><span style="visibility: hidden;">*</span>25013</td>
+                <td><span style="visibility: hidden;">*</span>30053</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 33</td>
+                <td>3410<span style="visibility: hidden;">*</span>31132</td>
+                <td><span style="visibility: hidden;">*</span>32212</td>
+                <td><span style="visibility: hidden;">*</span>33252</td>
+                <td><span style="visibility: hidden;">*</span>34332</td>
+                <td><span style="visibility: hidden;">*</span>35411</td>
+                <td><span style="visibility: hidden;">*</span>40451</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 34</td>
+                <td>3410<span style="visibility: hidden;">*</span>41531</td>
+                <td><span style="visibility: hidden;">*</span>43011</td>
+                <td><span style="visibility: hidden;">*</span>44050</td>
+                <td><span style="visibility: hidden;">*</span>45130</td>
+                <td><span style="visibility: hidden;">*</span>50210</td>
+                <td><span style="visibility: hidden;">*</span>51250</td>
+            </tr>
+            <tr>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">300</span> 35</td>
+                <td style="padding-bottom: 5px;">3410<span style="visibility: hidden;">*</span>52325</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>53405</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>54445</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>55524</td>
+                <td style="padding-bottom: 5px;">*01004</td>
+                <td style="padding-bottom: 5px;">*02044</td>
+            </tr>
+                        <tr style="font-weight: bold;">
+                <td><span>300</span> 40</td>
+                <td>3411<span style="visibility: hidden;">*</span>03123</td>
+                <td><span style="visibility: hidden;">*</span>04203</td>
+                <td><span style="visibility: hidden;">*</span>05242</td>
+                <td><span style="visibility: hidden;">*</span>10322</td>
+                <td><span style="visibility: hidden;">*</span>11402</td>
+                <td><span style="visibility: hidden;">*</span>12441</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 41</td>
+                <td>3411<span style="visibility: hidden;">*</span>13521</td>
+                <td><span style="visibility: hidden;">*</span>15000</td>
+                <td><span style="visibility: hidden;">*</span>20040</td>
+                <td><span style="visibility: hidden;">*</span>21115</td>
+                <td><span style="visibility: hidden;">*</span>22155</td>
+                <td><span style="visibility: hidden;">*</span>23234</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 42</td>
+                <td>3411<span style="visibility: hidden;">*</span>24314</td>
+                <td><span style="visibility: hidden;">*</span>25353</td>
+                <td><span style="visibility: hidden;">*</span>30433</td>
+                <td><span style="visibility: hidden;">*</span>31512</td>
+                <td><span style="visibility: hidden;">*</span>32552</td>
+                <td><span style="visibility: hidden;">*</span>34031</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 43</td>
+                <td>3411<span style="visibility: hidden;">*</span>35111</td>
+                <td><span style="visibility: hidden;">*</span>40150</td>
+                <td><span style="visibility: hidden;">*</span>41230</td>
+                <td><span style="visibility: hidden;">*</span>42305</td>
+                <td><span style="visibility: hidden;">*</span>43345</td>
+                <td><span style="visibility: hidden;">*</span>44424</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 44</td>
+                <td>3411<span style="visibility: hidden;">*</span>45503</td>
+                <td><span style="visibility: hidden;">*</span>50543</td>
+                <td><span style="visibility: hidden;">*</span>52022</td>
+                <td><span style="visibility: hidden;">*</span>53101</td>
+                <td><span style="visibility: hidden;">*</span>54141</td>
+                <td><span style="visibility: hidden;">*</span>55220</td>
+            </tr>
+            <tr>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">300</span> 45</td>
+                <td style="padding-bottom: 5px;">3412<span style="visibility: hidden;">*</span>00255</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>01335</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>02414</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>03453</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>04533</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>10012</td>
+            </tr>
+                        <tr style="font-weight: bold;">
+                <td><span>300</span> 50</td>
+                <td>3412<span style="visibility: hidden;">*</span>11051</td>
+                <td><span style="visibility: hidden;">*</span>12130</td>
+                <td><span style="visibility: hidden;">*</span>13210</td>
+                <td><span style="visibility: hidden;">*</span>14245</td>
+                <td><span style="visibility: hidden;">*</span>15324</td>
+                <td><span style="visibility: hidden;">*</span>20403</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 51</td>
+                <td>3412<span style="visibility: hidden;">*</span>21442</td>
+                <td><span style="visibility: hidden;">*</span>22522</td>
+                <td><span style="visibility: hidden;">*</span>24001</td>
+                <td><span style="visibility: hidden;">*</span>25040</td>
+                <td><span style="visibility: hidden;">*</span>30115</td>
+                <td><span style="visibility: hidden;">*</span>31154</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 52</td>
+                <td>3412<span style="visibility: hidden;">*</span>32233</td>
+                <td><span style="visibility: hidden;">*</span>33313</td>
+                <td><span style="visibility: hidden;">*</span>34352</td>
+                <td><span style="visibility: hidden;">*</span>35431</td>
+                <td><span style="visibility: hidden;">*</span>40510</td>
+                <td><span style="visibility: hidden;">*</span>41545</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 53</td>
+                <td>3412<span style="visibility: hidden;">*</span>43024</td>
+                <td><span style="visibility: hidden;">*</span>44103</td>
+                <td><span style="visibility: hidden;">*</span>45142</td>
+                <td><span style="visibility: hidden;">*</span>50221</td>
+                <td><span style="visibility: hidden;">*</span>51300</td>
+                <td><span style="visibility: hidden;">*</span>52335</td>
+            </tr>
+            <tr>
+                <td><span style="visibility: hidden;">300</span> 54</td>
+                <td>3412<span style="visibility: hidden;">*</span>53414</td>
+                <td><span style="visibility: hidden;">*</span>54453</td>
+                <td><span style="visibility: hidden;">*</span>55532</td>
+                <td>*01011</td>
+                <td>*02050</td>
+                <td>*03125</td>
+            </tr>
+            <tr>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">300</span> 55</td>
+                <td style="padding-bottom: 5px;">3413<span style="visibility: hidden;">*</span>04204</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>05243</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>10322</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>11401</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>12440</td>
+                <td style="padding-bottom: 5px;"><span style="visibility: hidden;">*</span>13515</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
